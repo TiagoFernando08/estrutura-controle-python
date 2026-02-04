@@ -20,7 +20,8 @@ match numeros:
     case "5":
         print(sair)
     case _:
-        print("tenta denovo")
+        print("erro, tente novamente")
+
 
 
 
