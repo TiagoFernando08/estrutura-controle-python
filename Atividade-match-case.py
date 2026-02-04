@@ -6,7 +6,7 @@ cancelamento = "deseja cancelar o serviço"
 plano = " informações sobre o plano"
 sair = "sair"
 print("1 Falar com atendente \n2 Segunda via de boleto \n3 Cancelar serviço \n4 Informações sobre planos \n5  Sair")
-numeros = input("Digite um dos numeros acima: ")
+numeros = input("Digite um das opções acima: ")
 
 match numeros:
     case "1":
@@ -21,6 +21,7 @@ match numeros:
         print(sair)
     case _:
         print("tenta denovo")
+
 
 
 
