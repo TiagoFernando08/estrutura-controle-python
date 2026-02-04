@@ -1,4 +1,4 @@
-print("Bem vindo ao atendimento por favor escolha um número abaixo")
+print("Bem vindo ao atendimento por favor escolha uma opção abaixo")
 
 atendente = "você esta falando com o atendente"
 boleto =  "essa é sua segunda via de boleto"
@@ -21,5 +21,6 @@ match numeros:
         print(sair)
     case _:
         print("tenta denovo")
+
 
 
