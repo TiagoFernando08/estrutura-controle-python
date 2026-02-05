@@ -12,20 +12,21 @@ defender = "Você levanta seu escudo"
 fugir = "Você foge da batalha" 
 
 print("a = Atacar \nd = Defender \nf = Fugir")
-acoes= input("oque você quer fazer: ")
+acoes= input("oque você quer fazer: ").lower()
 
 match acoes:
-    case "a" | "A":
+    case "a" :
         print(atacar)
         print("Você acerta um critico derrotando o seu adversario")
-    case "d" | "D":
+    case "d" :
         print(defender)
         print("Você se defende de um ataque fatal")
-    case "f" |  "F":
+    case "f" :
         print(fugir)
         print("Para se recuperar seus ferimentos")
     case _:
 
         print("Não há mais ações disponiveis")
+
 
 
