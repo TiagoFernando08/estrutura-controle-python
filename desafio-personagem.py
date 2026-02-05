@@ -2,7 +2,7 @@ xp = int(input("coloque a quantidade de experiencia que o personagem tem: "))
 
 if xp < 100:
     print("Você é um iniciante")
-elif xp == 100 < 500:
+elif xp  < 500:
     print("Você esta em um nivel intermediario")
 else :
     print("Você é um veterano no jogo")
@@ -25,4 +25,5 @@ match acoes:
         print(fugir)
         print("Para se recuperar seus ferimentos")
     case _:
+
         print("Não há mais ações disponiveis")
